@@ -978,6 +978,65 @@ header .header-mobile {
     .testimonials .testimonial-item .testimonial-meta .meta-info p {
       font-size: 14px; }
 
+/*============ 6. Skills Section ============*/
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9fafb;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+.skill {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+.skill:hover {
+  transform: translateY(-5px);
+}
+.icon {
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+}
+.icon i {
+  font-size: 36px;
+  color: #007bff;
+}
+.icon img {
+  max-height: 48px;
+  max-width: 48px;
+  object-fit: contain;
+}
+.skill span {
+  display: block;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+}
+
 /*============ 6. Resume Section ============*/
 .resume-section {
   background-color: #342E2F ; }
